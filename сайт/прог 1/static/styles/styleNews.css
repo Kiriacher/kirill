@@ -1,0 +1,719 @@
+body {
+    width: 100%;
+    height: 500vh;
+    background: url(https://klike.net/uploads/posts/2022-11/1669012475_3-34.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .main-header {
+  background-color: #191A1C;
+  padding: 20px;
+  text-align: right;
+  height: 3px;
+  }
+  .main-header .mcontainer {
+  display: flex;
+  height: inherit;
+  justify-content: flex-end;
+  align-items: center;
+  }
+  
+  .navbar-menus {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  font-size: 15px;
+  font-family: disket mono;
+  }
+  
+  .navbar-menus li {
+  display: inline-block;
+  }
+  
+  .navbar-menus li a {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(237, 230, 230);
+  padding: 10px;
+  }
+  
+  .navbar-menus li a:hover {
+  color: aquamarine;
+  }
+  
+  .navbar-wrape {
+  display: flex;
+  flex-flow: row wrap;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .sub-header {
+  background-color: #191A1C;
+  padding: 10px;
+  text-align: left;
+  height: 50px;
+  width: 100%;
+  
+  }
+  
+  .sub-header .container {
+  display: flex;
+  height: inherit;
+  justify-content: flex-start;
+  align-items: center;
+  }
+  
+  .navbar-menu {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  font-size: 24px;
+  font-family: disket mono;
+  }
+  
+  .navbar-menu li {
+  display: inline-block;
+  }
+  
+  .navbar-menu li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+  }
+  
+  .navbar-menu li a:hover {
+  color: aquamarine;
+  }
+  
+  
+  .navbar-wrap {
+  display: flex;
+  flex-flow: row wrap;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .header-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999; /* Добавьте эту строку */
+  }
+  
+  .line {
+  position: absolute;
+  top: 39%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #ffffff;
+  }
+  
+  .logo {
+  margin-left: 10px;
+  margin-right: 40px;
+  float: left;
+  margin-top: -5px;
+  }
+  
+  .logo img {
+  width: 300px;
+  height: auto;
+  }
+  
+  * {
+  margin: 0;
+  padding: 0;
+  }
+  
+  
+  
+  head {
+  background-color: #222222;
+  
+  }
+  
+  
+  
+ .containertelo1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 300px;
+  width: 1100px;
+  height: 200px;
+  }
+  
+  .card1 {
+  margin: 0.5em; 
+  }
+  .card1>a>img {
+  height: 200px;
+  width: 300px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: aqua;
+  border-width: 5px;
+  margin-top: -10px;
+  margin-left: -10px;
+  }
+ 
+
+  .textcard1 {
+  margin: 0.5em; 
+  height: 200px;
+  width: 800px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: aqua;
+  border-width: 5px;
+  background-color: #191A1C;
+  margin-top: -2px;
+  margin-left: -12px;
+  }
+
+  .textcard1>p {
+   color: #ffffff;
+  }
+
+
+   .containertelo2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
+    width: 1100px;
+    height: 200px;
+    }
+    
+    .card2 {
+    margin: 0.5em; 
+    }
+    .card2>a>img {
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: aqua;
+    border-width: 5px;
+    margin-top: -10px;
+    margin-left: -10px;
+    }
+   
+  
+    .textcard2 {
+    margin: 0.5em; 
+    height: 200px;
+    width: 800px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: aqua;
+    border-width: 5px;
+    background-color: #191A1C;
+    margin-top: -3px;
+    margin-left: -12px;
+    }
+  
+    .textcard2>p {
+     color: #ffffff;
+    }
+
+    .containertelo3 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 20px;
+        width: 1100px;
+        height: 200px;
+        }
+        
+        .card3 {
+        margin: 0.5em; 
+        }
+        .card3>a>img {
+        height: 200px;
+        width: 300px;
+        border-radius: 20px;
+        border-style: solid;
+        border-color: aqua;
+        border-width: 5px;
+        margin-top: -10px;
+        margin-left: -10px;
+        }
+       
+      
+        .textcard3 {
+        margin: 0.5em; 
+        height: 200px;
+        width: 800px;
+        border-radius: 20px;
+        border-style: solid;
+        border-color: aqua;
+        border-width: 5px;
+        background-color: #191A1C;
+        margin-top: -3px;
+        margin-left: -12px;
+        }
+      
+        .textcard3>p {
+         color: #ffffff;
+        }
+
+        .containertelo4 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            margin-top: 20px;
+            width: 1100px;
+            height: 200px;
+            }
+            
+            .card4 {
+            margin: 0.5em; 
+            }
+            .card4>a>img {
+            height: 200px;
+            width: 300px;
+            border-radius: 20px;
+            border-style: solid;
+            border-color: aqua;
+            border-width: 5px;
+            margin-top: -10px;
+            margin-left: -10px;
+            }
+           
+          
+            .textcard4 {
+            margin: 0.5em; 
+            height: 200px;
+            width: 800px;
+            border-radius: 20px;
+            border-style: solid;
+            border-color: aqua;
+            border-width: 5px;
+            background-color: #191A1C;
+            margin-top: -3px;
+            margin-left: -12px;
+            }
+          
+            .textcard4>p {
+             color: #ffffff;
+            }
+
+            .containertelo5 {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                margin-top: 20px;
+                width: 1100px;
+                height: 200px;
+                }
+                
+                .card5 {
+                margin: 0.5em; 
+                }
+                .card5>a>img {
+                height: 200px;
+                width: 300px;
+                border-radius: 20px;
+                border-style: solid;
+                border-color: aqua;
+                border-width: 5px;
+                margin-top: -10px;
+                margin-left: -10px;
+                }
+               
+              
+                .textcard5 {
+                margin: 0.5em; 
+                height: 200px;
+                width: 800px;
+                border-radius: 20px;
+                border-style: solid;
+                border-color: aqua;
+                border-width: 5px;
+                background-color: #191A1C;
+                margin-top: -3px;
+                margin-left: -12px;
+                }
+              
+                .textcard5>p {
+                 color: #ffffff;
+                }
+
+                .containertelo6 {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    margin-top: 20px;
+                    width: 1100px;
+                    height: 200px;
+                    }
+                    
+                    .card6 {
+                    margin: 0.5em; 
+                    }
+                    .card6>a>img {
+                    height: 200px;
+                    width: 300px;
+                    border-radius: 20px;
+                    border-style: solid;
+                    border-color: aqua;
+                    border-width: 5px;
+                    margin-top: -10px;
+                    margin-left: -10px;
+                    }
+                   
+                  
+                    .textcard6 {
+                    margin: 0.5em; 
+                    height: 200px;
+                    width: 800px;
+                    border-radius: 20px;
+                    border-style: solid;
+                    border-color: aqua;
+                    border-width: 5px;
+                    background-color: #191A1C;
+                    margin-top: -3px;
+                    margin-left: -12px;
+                    }
+                  
+                    .textcard6>p {
+                     color: #ffffff;
+                    }
+
+                    .containertelo7 {
+                        display: grid;
+                        grid-template-columns: repeat(2, 1fr);
+                        margin-top: 20px;
+                        width: 1100px;
+                        height: 200px;
+                        }
+                        
+                        .card7 {
+                        margin: 0.5em; 
+                        }
+                        .card7>a>img {
+                        height: 200px;
+                        width: 300px;
+                        border-radius: 20px;
+                        border-style: solid;
+                        border-color: aqua;
+                        border-width: 5px;
+                        margin-top: -10px;
+                        margin-left: -10px;
+                        }
+                       
+                      
+                        .textcard7 {
+                        margin: 0.5em; 
+                        height: 200px;
+                        width: 800px;
+                        border-radius: 20px;
+                        border-style: solid;
+                        border-color: aqua;
+                        border-width: 5px;
+                        background-color: #191A1C;
+                        margin-top: -3px;
+                        margin-left: -12px;
+                        }
+                      
+                        .textcard7>p {
+                         color: #ffffff;
+                        }
+
+                        .containertelo8 {
+                            display: grid;
+                            grid-template-columns: repeat(2, 1fr);
+                            margin-top: 20px;
+                            width: 1100px;
+                            height: 200px;
+                            }
+                            
+                            .card8 {
+                            margin: 0.5em; 
+                            }
+                            .card8>a>img {
+                            height: 200px;
+                            width: 300px;
+                            border-radius: 20px;
+                            border-style: solid;
+                            border-color: aqua;
+                            border-width: 5px;
+                            margin-top: -10px;
+                            margin-left: -10px;
+                            }
+                           
+                          
+                            .textcard8 {
+                            margin: 0.5em; 
+                            height: 200px;
+                            width: 800px;
+                            border-radius: 20px;
+                            border-style: solid;
+                            border-color: aqua;
+                            border-width: 5px;
+                            background-color: #191A1C;
+                            margin-top: -3px;
+                            margin-left: -12px;
+                            }
+                          
+                            .textcard8>p {
+                             color: #ffffff;
+                            }
+
+                            .containertelo9 {
+                                display: grid;
+                                grid-template-columns: repeat(2, 1fr);
+                                margin-top: 20px;
+                                width: 1100px;
+                                height: 200px;
+                                }
+                                
+                                .card9 {
+                                margin: 0.5em; 
+                                }
+                                .card9>a>img {
+                                height: 200px;
+                                width: 300px;
+                                border-radius: 20px;
+                                border-style: solid;
+                                border-color: aqua;
+                                border-width: 5px;
+                                margin-top: -10px;
+                                margin-left: -10px;
+                                }
+                               
+                              
+                                .textcard9 {
+                                margin: 0.5em; 
+                                height: 200px;
+                                width: 800px;
+                                border-radius: 20px;
+                                border-style: solid;
+                                border-color: aqua;
+                                border-width: 5px;
+                                background-color: #191A1C;
+                                margin-top: -3px;
+                                margin-left: -12px;
+                                }
+                              
+                                .textcard9>p {
+                                 color: #ffffff;
+                                }
+
+                                .containertelo10 {
+                                    display: grid;
+                                    grid-template-columns: repeat(2, 1fr);
+                                    margin-top: 20px;
+                                    width: 1100px;
+                                    height: 200px;
+                                    }
+                                    
+                                    .card10 {
+                                    margin: 0.5em; 
+                                    }
+                                    .card10>a>img {
+                                    height: 200px;
+                                    width: 300px;
+                                    border-radius: 20px;
+                                    border-style: solid;
+                                    border-color: aqua;
+                                    border-width: 5px;
+                                    margin-top: -10px;
+                                    margin-left: -10px;
+                                    }
+                                   
+                                  
+                                    .textcard10 {
+                                    margin: 0.5em; 
+                                    height: 200px;
+                                    width: 800px;
+                                    border-radius: 20px;
+                                    border-style: solid;
+                                    border-color: aqua;
+                                    border-width: 5px;
+                                    background-color: #191A1C;
+                                    margin-top: -3px;
+                                    margin-left: -12px;
+                                    }
+                                  
+                                    .textcard10>p {
+                                     color: #ffffff;
+                                    }
+
+                                    .containertelo11 {
+                                        display: grid;
+                                        grid-template-columns: repeat(2, 1fr);
+                                        margin-top: 20px;
+                                        width: 1100px;
+                                        height: 200px;
+                                        }
+                                        
+                                        .card11 {
+                                        margin: 0.5em; 
+                                        }
+                                        .card11>a>img {
+                                        height: 200px;
+                                        width: 300px;
+                                        border-radius: 20px;
+                                        border-style: solid;
+                                        border-color: aqua;
+                                        border-width: 5px;
+                                        margin-top: -10px;
+                                        margin-left: -10px;
+                                        }
+                                       
+                                      
+                                        .textcard11 {
+                                        margin: 0.5em; 
+                                        height: 200px;
+                                        width: 800px;
+                                        border-radius: 20px;
+                                        border-style: solid;
+                                        border-color: aqua;
+                                        border-width: 5px;
+                                        background-color: #191A1C;
+                                        margin-top: -3px;
+                                        margin-left: -12px;
+                                        }
+                                      
+                                        .textcard11>p {
+                                         color: #ffffff;
+                                        }
+
+                                        .containertelo12 {
+                                            display: grid;
+                                            grid-template-columns: repeat(2, 1fr);
+                                            margin-top: 20px;
+                                            width: 1100px;
+                                            height: 200px;
+                                            }
+                                            
+                                            .card12 {
+                                            margin: 0.5em; 
+                                            }
+                                            .card12>a>img {
+                                            height: 200px;
+                                            width: 300px;
+                                            border-radius: 20px;
+                                            border-style: solid;
+                                            border-color: aqua;
+                                            border-width: 5px;
+                                            margin-top: -10px;
+                                            margin-left: -10px;
+                                            }
+                                           
+                                          
+                                            .textcard12 {
+                                            margin: 0.5em; 
+                                            height: 200px;
+                                            width: 800px;
+                                            border-radius: 20px;
+                                            border-style: solid;
+                                            border-color: aqua;
+                                            border-width: 5px;
+                                            background-color: #191A1C;
+                                            margin-top: -3px;
+                                            margin-left: -12px;
+                                            }
+                                          
+                                            .textcard12>p {
+                                             color: #ffffff;
+                                            }
+    
+
+
+
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  .main-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(1);
+  
+  }
+  
+  
+  .containertelo1 {
+    grid-column: 3/11;
+  }
+  .containertelo2 {
+    grid-column: 3/11;
+  }
+  .containertelo3 {
+    grid-column: 3/11;
+  }
+  .containertelo4 {
+    grid-column: 3/11;
+  }
+  .containertelo5 {
+    grid-column: 3/11;
+  }
+  .containertelo6 {
+    grid-column: 3/11;
+  }
+  .containertelo7 {
+    grid-column: 3/11;
+  }
+  .containertelo8 {
+    grid-column: 3/11;
+  }
+  .containertelo9 {
+    grid-column: 3/11;
+  }
+  .containertelo10 {
+    grid-column: 3/11;
+  }
+  .containertelo11 {
+    grid-column: 3/11;
+  }
+  .containertelo12 {
+    grid-column: 3/11;
+  }
+  
+  
+  .body {
+  grid-column: 1/13;
+  }
+  
+  
+  .right-bar {
+    grid-column: 11/13;
+  }
+  
+  
+  
+  
